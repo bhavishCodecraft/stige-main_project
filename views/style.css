@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    background-color: rgb(95, 49, 54); 
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 8px;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.logo h1 {
+    font-size: 35px;
+}
+
+main {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+main form input {
+    height: 30px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    /* border-radius: 10px; */
+    font-size: 16px;
+}
+
+main form button {
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin: 20px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-left: 150px;
+}
